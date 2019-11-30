@@ -1,0 +1,28 @@
+<%= form_with(model: coin, local: true) do |form| %>
+
+  <div class="form-group">
+    <%= form.label :description %>
+    <%= form.text_field :description, class: "form-control" %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :acronym %>
+    <%= form.text_field :acronym, class: "form-control"%>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :url_image %>
+    <%= form.text_field :urlImage, class: "form-control" %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :mining_type_id %>
+    <%= form.select :mining_type_id, @mining_type_options,
+      {}, class: "custom-select" %>
+  </div>
+
+  <div class="form-group">
+    <%= form.submit nil, class: "btn btn-success" %>
+    <%= link_to t('links.back'), coins_path, class: "btn btn-secondary" %>
+  </div>
+<% end %>

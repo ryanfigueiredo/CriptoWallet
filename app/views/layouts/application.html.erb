@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Myapp</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <%= render "welcome/navbar" %>
+      <%= yield %>
+      <%# a variável yield renderiza qualquer das views como por exemplo: index.html.erb, edit.html.erb %>
+    </div>
+  </body>
+</html>
+
+<%= javascript_tag(display_flash_messages) %>

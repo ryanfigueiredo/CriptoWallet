@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong><%= t("attributes_model.description") %></strong>
+  <%= @coin.description %>
+</p>
+
+<p>
+  <strong><%= t("attributes_model.acronym") %></strong>
+  <%= @coin.acronym %>
+</p>
+
+<p>
+  <strong><%= t("attributes_model.url_image") %></strong>
+  <%= @coin.urlImage %>
+</p>
+
+<p>
+  <strong><%= t("attributes_model.mining_type") %></strong>
+  <%= @coin.mining_type.description %>
+</p>
+
+<%= link_to t('links.edit'), edit_coin_path(@coin) %> |
+<%= link_to t('links.back'), coins_path %>
