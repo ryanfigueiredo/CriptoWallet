@@ -1,7 +1,7 @@
 <%= form_with(model: coin, local: true) do |form| %>
 
   <div class="form-group">
-    <%= form.label t("attributes_model.description") %>
+    <%= form.label (t("attributes_model.description") +  t("attributes_model.description")) %>
     <%= form.text_field :description, class: "form-control" %>
   </div>
 
