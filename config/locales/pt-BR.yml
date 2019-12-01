@@ -13,13 +13,13 @@ pt-BR:
     coin: "Editando moeda"
     mining_type: "Editando tipo de mineração"
   attributes_model:
-    description: Descrição
-    acronym: Sigla
-    url_image: URL da imagem
-    mining_type: Tipo de mineração
-    mining_type_id: Código do tipo de mineração
-    updated_at: Atualizado em
-    created_at: Criado em
+    description: "Descrição"
+    acronym: "Sigla"
+    url_image: "URL da imagem"
+    mining_type: "Tipo de mineração"
+    mining_type_id: "Código do tipo de mineração"
+    updated_at: "Atualizado em"
+    created_at: "Criado em"
   messages:
     welcome: "Este é o CriptoWallet, um app para você cadastrar e acompanhar as suas cripto moedas."
     menu: "Para começar selecione uma das opções abaixo:"

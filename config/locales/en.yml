@@ -44,13 +44,13 @@ en:
     coin: "Editing Coin"
     mining_type: "Editing mining type"
   attributes_model:
-    description: description
-    acronym: acronym
-    url_image: URL image
-    mining_type: Mining Type
-    mining_type_id: Code mining type
-    updated_at: Updated At
-    created_at: Created At
+    description: "description"
+    acronym: "acronym"
+    url_image: "URL image"
+    mining_type: "Mining Type"
+    mining_type_id: "Code mining type"
+    updated_at: "Updated At"
+    created_at: "Created At"
   messages:
     welcome: "This is CriptoWallet, an app that you can register and keep up with your criptocoins"
     menu: "To start, choose an options below:"
