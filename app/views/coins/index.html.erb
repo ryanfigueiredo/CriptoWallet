@@ -1,10 +1,10 @@
 <table class="table table-hover">
   <thead>
     <tr>
-      <th><%= @coins.human_attribute_name(:description) %></th>
-      <th><%= @coins.human_attribute_name(:acronym) %></th>
-      <th><%= @coins.human_attribute_name(:url_image) %></th>
-      <th><%= @coins.human_attribute_name(:mining_type) %></th>
+      <th><%= t("attributes_model.description") %></th>
+      <th><%= t("attributes_model.acronym") %></th>
+      <th><%= t("attributes_model.url_image") %></th>
+      <th><%= t("attributes_model.mining_type") %></th>
       <th colspan="2"><%= t("actions") %></th>
     </tr>
   </thead>
@@ -33,6 +33,6 @@
 
 <br>
 
-<%= link_to t("new"), new_coin_path, class: "btn btn-primary" %>
+<%= link_to t("links.new"), new_coin_path, class: "btn btn-primary" %>
 
 

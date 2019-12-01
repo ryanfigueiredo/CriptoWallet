@@ -31,6 +31,8 @@
 
 en:
   current_locale: "English (International)"
+  coin: "Coin"
+  mining_type: "Mining type"
   welcome: "Welcome"
   editing:
     coin: "Editing Coin"

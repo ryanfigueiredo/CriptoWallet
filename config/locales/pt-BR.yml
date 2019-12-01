@@ -1,5 +1,7 @@
 pt-BR:
   current_locale: "Português do Brasil"
+  coin: "Moeda"
+  mining_type: "Tipos de mineração"
   welcome: "Seja Bem vindo"
   editing:
     coin: "Editando moeda"
