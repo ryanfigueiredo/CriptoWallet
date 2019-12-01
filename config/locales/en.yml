@@ -34,7 +34,8 @@ en:
   coin: "Coin"
   mining_type: "Mining type"
   welcome: "Welcome"
-  description: "description 1"
+  description: "Description"
+  acronym: "Acronym"
   create:
     coin: "Create Coin"
     mining_type: "Create Mining Type"
@@ -45,8 +46,8 @@ en:
     coin: "Editing Coin"
     mining_type: "Editing mining type"
   attributes_model:
-    description: "description"
-    acronym: "acronym"
+    description: "Description"
+    acronym: "Acronym"
     url_image: "URL image"
     mining_type: "Mining Type"
     mining_type_id: "Code mining type"
