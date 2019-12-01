@@ -13,5 +13,5 @@
  *= require_tree .
  *= require_self
  *= require bootstrap/dist/css/bootstrap
- *= require font-awesome/css/font-awesome
+@import "@fortawesome/font-awesome/scss/font-awesome.scss";
  */
