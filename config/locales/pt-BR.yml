@@ -3,10 +3,15 @@ pt-BR:
   coin: "Moeda"
   mining_type: "Tipos de mineração"
   welcome: "Seja Bem vindo"
+  create:
+    coin: "Criar Moeda"
+    mining_type: "Criar Tipo de Mineração"
+  new:
+    coin: "Nova Moeda"
+    mining_type: "Novo Tipo de Mineração"
   editing:
     coin: "Editando moeda"
     mining_type: "Editando tipo de mineração"
-
   attributes_model:
     description: Descrição
     acronym: Sigla

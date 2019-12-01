@@ -34,6 +34,12 @@ en:
   coin: "Coin"
   mining_type: "Mining type"
   welcome: "Welcome"
+  create:
+    coin: "Create Coin"
+    mining_type: "Create Mining Type"
+  new:
+    coin: "New Coin"
+    mining_type: "New Mining Type"
   editing:
     coin: "Editing Coin"
     mining_type: "Editing mining type"
