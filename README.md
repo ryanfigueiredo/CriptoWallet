@@ -21,4 +21,5 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* Link to app: https://vast-savannah-99121.herokuapp.com/
+
